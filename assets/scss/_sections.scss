@@ -98,7 +98,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: lighten($primary, 36);
+  background: lighten($primary, 1);
   .content {
     padding: 0 80px;
     h3 {
@@ -115,7 +115,7 @@ section {
   
     p {
       font-size: 15px;
-      color: lighten($default, 25);
+      color: lighten($gray, 25);
     }
 
     ul {
