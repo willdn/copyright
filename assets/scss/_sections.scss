@@ -104,7 +104,10 @@ section {
     h3 {
       font-weight: 400;
       font-size: 34px;
-      color: lighten($secondary, 10);
+      color: #fff;
+      font-family: $font-default;
+      font-weight: bold;
+      margin-bottom: 30px;
     }
   
     h4 {
@@ -115,7 +118,13 @@ section {
   
     p {
       font-size: 15px;
-      color: lighten($gray, 25);
+      color: #fff;
+    }
+
+    span.copyright {
+      font-family: $font-primary;
+      font-size: 14px;
+      margin-right: 5px;
     }
 
     ul {

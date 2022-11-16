@@ -1,8 +1,16 @@
+@font-face {
+  font-family: 'Rocket Clouds';
+  src: url("../fonts/RocketClouds.ttf"); }
+
+@font-face {
+  font-family: 'Museo Sans';
+  src: url("../fonts/MuseoSans_500.otf"); }
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Museo Sans", sans-serif;
   color: #444444; }
 
 a {
@@ -14,7 +22,7 @@ a:hover {
   text-decoration: none; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Satisfy", sans-serif; }
+  font-family: "Rocket Clouds", sans-serif; }
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -69,7 +77,6 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  top: 50px;
   height: 70px;
   z-index: 997;
   transition: all 0.5s;
@@ -452,14 +459,21 @@ section {
     .about .content h3 {
       font-weight: 400;
       font-size: 34px;
-      color: #5f5950; }
+      color: #fff;
+      font-family: "Museo Sans", sans-serif;
+      font-weight: bold;
+      margin-bottom: 30px; }
     .about .content h4 {
       font-size: 20px;
       font-weight: 700;
       margin-top: 5px; }
     .about .content p {
       font-size: 15px;
-      color: #afb5ba; }
+      color: #fff; }
+    .about .content span.copyright {
+      font-family: "Rocket Clouds", sans-serif;
+      font-size: 14px;
+      margin-right: 5px; }
     .about .content ul {
       list-style: none;
       padding: 0; }
@@ -724,7 +738,7 @@ section {
       color: #015938; }
     .events .event-item .price {
       font-size: 26px;
-      font-family: "Poppins", sans-serif;
+      font-family: "Museo Sans", sans-serif;
       font-weight: 700;
       margin-bottom: 15px; }
       .events .event-item .price span {
@@ -874,7 +888,7 @@ section {
       color: #6c665c;
       position: relative;
       padding-bottom: 10px;
-      font-family: "Poppins", sans-serif; }
+      font-family: "Museo Sans", sans-serif; }
     .chefs .member h4::after {
       content: '';
       position: absolute;
@@ -939,7 +953,7 @@ section {
       font-weight: bold;
       margin: 10px 0 5px 0;
       color: #fff;
-      font-family: "Poppins", sans-serif; }
+      font-family: "Museo Sans", sans-serif; }
     .testimonials .testimonial-item h4 {
       font-size: 14px;
       color: #ddd;
@@ -1005,7 +1019,7 @@ section {
     font-weight: 600;
     margin-bottom: 5px;
     color: #433f39;
-    font-family: "Poppins", sans-serif; }
+    font-family: "Museo Sans", sans-serif; }
   .contact .info p {
     padding: 0 0 0 60px;
     margin-bottom: 0;
@@ -1096,24 +1110,23 @@ section {
     font-style: italic;
     padding: 0;
     margin: 0 0 40px 0; }
-  #footer .social-links {
-    margin: 0 0 40px 0; }
-    #footer .social-links a {
-      font-size: 18px;
-      display: inline-block;
-      background: #46423b;
-      color: #fff;
-      line-height: 1;
-      padding: 8px 0;
-      margin-right: 4px;
-      border-radius: 50%;
-      text-align: center;
-      width: 36px;
-      height: 36px;
-      transition: 0.3s; }
-      #footer .social-links a:hover {
-        background: #015938; }
+  #footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #46423b;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s; }
+    #footer .social-links a:hover {
+      background: #015938; }
   #footer .copyright {
-    margin: 0 0 5px 0; }
+    margin: 20px 0 5px 0;
+    font-family: "Rocket Clouds", sans-serif; }
   #footer .credits {
     font-size: 13px; }
