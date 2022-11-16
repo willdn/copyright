@@ -115,21 +115,24 @@
 
   .btn-menu, .btn-book {
     font-weight: 600;
-    font-size: 13px;
+    font-size: 15px;
     letter-spacing: 1px;
     text-transform: uppercase;
     display: inline-block;
     padding: 12px 30px;
     border-radius: 50px;
-    transition: 0.5s;
+    transition: 0.3s;
     line-height: 1;
     margin: 0 10px;
-    animation-delay: 0.8s;
+    animation-delay: 0.6s;
     color: #fff;
     border: 2px solid $primary;
+    background: $primary;
+
     &:hover {
-      background: $primary;
+      background: transparent;
       color: #fff;
+      padding: 14px 32px;
     }
   }
 
