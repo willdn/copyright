@@ -220,6 +220,13 @@
     }
   });
 
+    /**
+   * Initiate gallery lightbox 
+   */
+     const menuLightbox = GLightbox({
+      selector: '.menu-lightbox'
+    });
+
   /**
    * Initiate gallery lightbox 
    */
