@@ -588,6 +588,9 @@ section {
 
     img {
       transition: all ease-in-out 0.4s;
+      object-fit: cover;
+      max-height: 300px;
+      width: 100%;
     }
 
     &:hover img {
