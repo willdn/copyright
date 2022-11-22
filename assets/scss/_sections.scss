@@ -827,11 +827,11 @@ section {
 
     i {
       font-size: 20px;
-      color: $primary;
+      color: #fff;
       float: left;
       width: 44px;
       height: 44px;
-      background: lighten($primary, 34);
+      background: $primary;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -857,8 +857,8 @@ section {
 
     &:hover {
       i {
-        background: $primary;
-        color: $white;
+        background: $white;
+        color: $primary;
       }
     }
   }

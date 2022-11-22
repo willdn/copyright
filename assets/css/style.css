@@ -898,11 +898,11 @@ section {
   background: #fff; }
   .contact .info i {
     font-size: 20px;
-    color: #015938;
+    color: #fff;
     float: left;
     width: 44px;
     height: 44px;
-    background: #0bfca2;
+    background: #015938;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -921,8 +921,8 @@ section {
     font-size: 14px;
     color: #7a7368; }
   .contact .info:hover i {
-    background: #015938;
-    color: #fff; }
+    background: #fff;
+    color: #015938; }
 
 .contact .php-email-form {
   width: 100%;
