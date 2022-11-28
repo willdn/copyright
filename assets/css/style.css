@@ -561,7 +561,8 @@ section {
 # Specials
 --------------------------------------------------------------*/
 .specials {
-  overflow: hidden; }
+  overflow: hidden;
+  background: #015e3b; }
   .specials .nav-tabs {
     border: 0; }
   .specials .nav-link {
@@ -601,9 +602,10 @@ section {
 # Events
 --------------------------------------------------------------*/
 .events {
-  background: url(../img/events-bg.jpg) center center no-repeat;
+  background: url(../img/take-away.jpg) center center no-repeat;
   background-size: cover;
-  position: relative; }
+  position: relative;
+  min-height: 350px; }
   .events::before {
     content: '';
     background-color: rgba(12, 11, 10, 0.8);
@@ -616,6 +618,11 @@ section {
     color: #fff; }
   .events .container {
     position: relative; }
+  .events .content {
+    color: #fff; }
+    .events .content .subtitle {
+      margin-top: 20px;
+      font-size: 24px; }
   @media (min-width: 1024px) {
     .events {
       background-attachment: fixed; } }

@@ -334,6 +334,7 @@ section {
 --------------------------------------------------------------*/
 .specials {
   overflow: hidden;
+  background: lighten($primary, 1);
 
   .nav-tabs {
     border: 0;
@@ -395,9 +396,11 @@ section {
 # Events
 --------------------------------------------------------------*/
 .events {
-  background: url(../img/events-bg.jpg) center center no-repeat;
+  background: url(../img/take-away.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
+  min-height: 350px;
+  // height: 200px;
 
   &::before {
     content: '';
@@ -415,6 +418,15 @@ section {
 
   .container {
     position: relative;
+  }
+
+  .content {
+    color: $white;
+
+    .subtitle {
+      margin-top: 20px;
+      font-size: 24px;
+    }
   }
 
   @media (min-width: 1024px) {
