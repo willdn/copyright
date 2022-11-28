@@ -605,7 +605,8 @@ section {
   background: url(../img/take-away.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
-  min-height: 350px; }
+  min-height: 350px;
+  margin-top: 75px; }
   .events::before {
     content: '';
     background-color: rgba(12, 11, 10, 0.8);
