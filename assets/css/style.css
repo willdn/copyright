@@ -1034,17 +1034,17 @@ section {
     padding: 0;
     margin: 0 0 40px 0; }
   #footer .social-links a {
-    font-size: 38px;
+    font-size: 36px;
     display: inline-block;
     background: #46423b;
     color: #fff;
     line-height: 1;
-    padding: 16px 0;
+    padding: 14px 0;
     margin-right: 6px;
     border-radius: 50%;
     text-align: center;
-    width: 72px;
-    height: 72px;
+    width: 64px;
+    height: 64px;
     transition: 0.3s; }
     #footer .social-links a:hover {
       background: #015938; }
